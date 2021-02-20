@@ -5,7 +5,7 @@ import { headData } from '../mock/data';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
 import '../style/darkMode.css';
-import {useTheme,css } from "@emotion/react"
+import {useTheme, css } from "@emotion/react"
 import Context from "../store/context"
 import Layout from "../components/Layout"
 import 'font-awesome/css/font-awesome.min.css';
