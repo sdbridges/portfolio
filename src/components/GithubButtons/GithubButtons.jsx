@@ -1,0 +1,28 @@
+import React from 'react';
+import GitHubButton from 'react-github-btn';
+
+const GithubButton = () => (
+  <>
+    <GitHubButton
+      className="github-button"
+      data-icon="octicon-repo-forked"
+      data-size="large"
+      data-show-count="true"
+      aria-label="https://github.com/sdbridges"
+    >
+      Fork
+    </GitHubButton>
+    <GitHubButton
+      className="github-button"
+      href="https://github.com/sdbridges"
+      data-icon="octicon-star"
+      data-size="large"
+      data-show-count="true"
+      aria-label="https://github.com/sdbridges"
+    >
+      Star
+    </GitHubButton>
+  </>
+);
+
+export default GithubButton;
