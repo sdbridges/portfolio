@@ -60,7 +60,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: 'sdbridge@uncg.edu',
+  email: '',
 };
 
 // FOOTER DATA
