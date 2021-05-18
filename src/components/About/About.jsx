@@ -59,7 +59,7 @@ const About = () => {
                       Résumé
                     </a>
                   </span>
-                )}
+                )},
                  {blog && (
                   <span className="d-flex mt-3">
                     <a
