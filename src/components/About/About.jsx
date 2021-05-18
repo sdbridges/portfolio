@@ -58,6 +58,14 @@ const About = () => {
                     >
                       Résumé
                     </a>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cta-btn cta-btn--resume"
+                      href={resume}
+                    >
+                      Résumé
+                    </a>
                   </span>
                 )}
               </div>
