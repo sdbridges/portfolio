@@ -48,7 +48,7 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                   {paragraphThree || 'Thanks for reading, much appreciated!!'}
                 </p>
-                {resume && (
+                {resume && blog(
                   <span className="d-flex mt-3">
                     <a
                       target="_blank"
@@ -58,10 +58,6 @@ const About = () => {
                     >
                       Résumé
                     </a>
-                  </span>
-                )},
-                 {blog && (
-                  <span className="d-flex mt-3">
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
