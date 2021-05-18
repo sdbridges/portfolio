@@ -48,7 +48,7 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                   {paragraphThree || 'Thanks for reading, much appreciated!!'}
                 </p>
-                {resume && blog(
+                {resume &&(
                   <span className="d-flex mt-3">
                     <a
                       target="_blank"
@@ -58,16 +58,17 @@ const About = () => {
                     >
                       Résumé
                     </a>
+                  </span>
+                )}
+                <span className="d-flex mt-3">
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
-                      href={blog}
+                      href= "https://lucid-goldwasser-83c568.netlify.app/"
                     >
                       Blog
                     </a>
-                  </span>
-                )}
               </div>
             </Fade>
           </Col>
