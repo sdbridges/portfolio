@@ -22,6 +22,7 @@ export const aboutData = {
   paragraphTwo: '',
   paragraphThree: '',
   resume: 'https://github.com/sdbridges/portfolio/raw/master/Resum%C3%A9.doc', // if no resume, the button will not show up
+  blog: 'https://lucid-goldwasser-83c568.netlify.app/',
 };
 
 // PROJECTS DATA
