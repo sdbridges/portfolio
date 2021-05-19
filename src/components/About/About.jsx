@@ -59,12 +59,13 @@ const About = () => {
                       Résumé
                     </a>
                     <a
+                      style="padding:20px;"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
-                      href={resume}
+                      href="https://lucid-goldwasser-83c568.netlify.app/"
                     >
-                      Résumé
+                      Blog
                     </a>
                   </span>
                 )}
